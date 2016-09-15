@@ -3,7 +3,7 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 
-describe('App: NG2BootstrapTemplate', () => {
+describe('App: Ng2BootstrapTemplate', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [

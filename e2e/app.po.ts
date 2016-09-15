@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor/globals';
 
-export class NG2BootstrapTemplatePage {
+export class Ng2BootstrapTemplatePage {
   navigateTo() {
     return browser.get('/');
   }
