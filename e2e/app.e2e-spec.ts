@@ -1,10 +1,10 @@
-import { Ng2BootstrapTemplatePage } from './app.po';
+import { NgBootstrapTemplatePage } from './app.po';
 
-describe('ng2-bootstrap-template App', function() {
-  let page: Ng2BootstrapTemplatePage;
+describe('ng-bootstrap-template App', function() {
+  let page: NgBootstrapTemplatePage;
 
   beforeEach(() => {
-    page = new Ng2BootstrapTemplatePage();
+    page = new NgBootstrapTemplatePage();
   });
 
   it('should display message saying app works', () => {
