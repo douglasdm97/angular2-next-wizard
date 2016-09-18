@@ -11,17 +11,30 @@
   </head>
   <body>
     <app-root>
-      <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
-        <a class="navbar-brand">NG Bootstrap Template</a>
-      </nav>
-      <main role="main" class="container">
-        <div class="starter-template">
-          <h1>Loading ...</h1>
+      <header class="navbar navbar-fixed-top navbar-dark bg-inverse ng-navbar">
+        <div class="container">
+          <nav>
+            <a class="navbar-brand">NG Bootstrap Template</a>
+          </nav>
+        </div>
+      </header>
+      <main id="content" role="main" class="container">
+        <div class="modal modal--preload">
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Loading</h4>
+              </div>
+              <div class="modal-body">
+                <progress class="progress progress-striped progress-animated" value="100" max="100"></progress>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </app-root>
     <footer class="footer bg-inverse">
-      <div class="container-fluid">
+      <div class="container">
         <span class="text-muted">NG Bootstrap Template</span>
       </div>
     </footer>
