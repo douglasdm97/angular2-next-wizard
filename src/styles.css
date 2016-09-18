@@ -18,16 +18,3 @@ body {
   padding-left: 0;
   padding-right: 0;
 }
-
-.modal--preload {
-  position: relative;
-  top: auto;
-  right: auto;
-  bottom: auto;
-  left: auto;
-  z-index: 1;
-  display: block;
-}
-.modal--preload .progressbar {
-  margin-bottom: 0;
-}
