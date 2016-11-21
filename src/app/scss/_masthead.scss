@@ -46,10 +46,6 @@
     }
   }
 
-  .carbonad {
-    margin-bottom: -2rem !important;
-  }
-
   @include media-breakpoint-up(sm) {
     padding-top: 8rem;
     padding-bottom: 2rem;
@@ -58,9 +54,6 @@
       width: auto;
     }
 
-    .carbonad {
-      margin-bottom: 0 !important;
-    }
   }
 
   @include media-breakpoint-up(md) {
@@ -78,9 +71,6 @@
       font-size: 1.5rem;
     }
 
-    .carbonad {
-      margin-top: 3rem !important;
-    }
   }
 
   @include media-breakpoint-up(lg) {
