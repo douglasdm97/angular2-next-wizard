@@ -1,5 +1,4 @@
-import { Component, Inject, AfterViewInit } from '@angular/core';
-import { DOCUMENT } from '@angular/platform-browser';
+import { Component, AfterViewInit, ElementRef, Renderer } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -8,10 +7,11 @@ import { DOCUMENT } from '@angular/platform-browser';
 })
 export class AppComponent implements AfterViewInit {
 
-  constructor( @Inject(DOCUMENT) private doc: Document) { }
+  constructor(private elem: ElementRef, private renderer: Renderer) { }
 
   ngAfterViewInit() {
-    let body = this.doc.getElementsByTagName('body')[0];
-    body.removeAttribute('unresolved');
+    if (this.elem.nativeElement != null) {
+      this.renderer.setElementAttribute(this.elem.nativeElement, 'unresolved', null);
+    }
   }
 }
