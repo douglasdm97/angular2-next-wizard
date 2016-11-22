@@ -2,16 +2,12 @@
 
 .bd-masthead {
   position: relative;
+  margin-top: 54px;
   padding: 3rem ($grid-gutter-width-base / 2) 2rem;
-  color: $bd-purple-light;
+  color: #fff;
   text-align: center;
-  background-image: linear-gradient(135deg, darken($bd-purple, 20%), $bd-purple, lighten(saturate($bd-purple, 5%), 15%));
-
-  .bd-booticon {
-    margin: 0 auto 2rem;
-    color: $bd-purple-light;
-    border-color: $bd-purple-light;
-  }
+  background-color: $bd-blue;
+  background: linear-gradient(135deg, $bd-blue,$bd-blue-light);
 
   h1 {
     font-weight: 300;
@@ -32,22 +28,20 @@
   }
 
   .btn {
-    width: 100%;
-    padding: 1rem 2rem;
-    font-size: 1.25rem;
+    min-width: 150px;
     font-weight: 500;
-    color: $bd-yellow;
-    border-color: $bd-yellow;
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
 
     &:hover {
-      color: $bd-graphite;
-      background-color: $bd-yellow;
-      border-color: $bd-yellow;
+      color: $bd-blue-light;
+      background-color: #fff;
+      border-color: #fff;
     }
   }
 
   @include media-breakpoint-up(sm) {
-    padding-top: 8rem;
     padding-bottom: 2rem;
 
     .btn {
