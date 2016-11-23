@@ -1,11 +1,8 @@
 //
 // Main navbar
 //
-
 .bd-navbar {
   background: hsla(0,0%,100%,.95);
-  padding-right: 0;
-  padding-left: 0;
   .navbar-nav {
     .nav-link {
       color: $bd-graphite-light;
@@ -37,4 +34,12 @@
       }
     }
   }
+}
+
+.navbar-nav--social .nav-item {
+  display: flex;
+  align-items: center;
+  padding-top: .425rem;
+  padding-bottom: .425rem;
+  height: 2.35rem;
 }
