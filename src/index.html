@@ -12,11 +12,16 @@
   <meta name="author" content="">
   <link rel="icon" href="favicon.ico">
   <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
     app-root[unresolved] {
-      color: #cdbfe3;
+      color: #fff;
       text-align: center;
-      background-image: -webkit-linear-gradient(315deg, #271b38, #563d7c, #7952b3);
-      background-image: linear-gradient(135deg, #271b38, #563d7c, #7952b3);
+      background-color: #0143a3;
+      background: -webkit-linear-gradient(315deg, #0143a3, #0273d4);
+      background: linear-gradient(135deg, #0143a3, #0273d4);
       width: 100%;
       max-height: 100vh;
       height: 100vh;
@@ -27,27 +32,16 @@
     }
 
     app-root[unresolved] .bd-booticon {
-      display: block;
-      width: 9rem;
-      height: 9rem;
-      font-size: 6.5rem;
-      line-height: 9rem;
-      color: #cdbfe3;
-      border-color: #cdbfe3;
-      background-color: transparent;
-      border: 1px solid #cdbfe3;
-      text-align: center;
-      cursor: default;
-      border-radius: 15%;
+      width: 256px;
+      height: 256px;
     }
-
   </style>
 </head>
 
 <body>
   <app-root unresolved>
+    <img class="bd-booticon" src="assets/img/logo.svg">
     <p>Loading...</p>
-    <span class="bd-booticon outline">B</span>
   </app-root>
 </body>
 
