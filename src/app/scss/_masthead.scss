@@ -1,10 +1,11 @@
 // scss-lint:disable ImportantRule
-
 .bd-masthead {
   position: relative;
-  margin-top: 54px;
-  padding: 3rem ($grid-gutter-width-base / 2) 2rem;
-  color: #fff;
+  margin-top: 3.4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 4rem;
+  color: #efefef;
   text-align: center;
   background-color: $bd-blue;
   background: linear-gradient(135deg, $bd-blue,$bd-blue-light);
@@ -18,7 +19,8 @@
     margin-right: auto;
     margin-bottom: 2rem;
     margin-left: auto;
-    font-size: 1.25rem;
+    width: 80%;
+    font-size: 2rem;
     color: #fff;
   }
 
@@ -29,11 +31,9 @@
 
   .btn {
     min-width: 150px;
-    font-weight: 500;
-    color: #fff;
     background-color: transparent;
+    color: #fff;
     border-color: #fff;
-
     &:hover {
       color: $bd-blue-light;
       background-color: #fff;
