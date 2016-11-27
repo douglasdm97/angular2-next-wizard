@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, Title } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
@@ -17,7 +17,9 @@ import { AppComponent } from './app.component';
     HttpModule,
     NgbModule.forRoot()
   ],
-  providers: [],
+  providers: [
+    { provide: 'title', useClass: Title }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,4 +1,4 @@
-import { Component, AfterViewInit, ElementRef, Renderer } from '@angular/core';
+import { Component, AfterViewInit, Inject, ElementRef, Renderer } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,11 +7,16 @@ import { Component, AfterViewInit, ElementRef, Renderer } from '@angular/core';
 })
 export class AppComponent implements AfterViewInit {
 
-  constructor(private elem: ElementRef, private renderer: Renderer) { }
+  title: string = 'NG Bootstrap Template';
+
+  constructor(private elem: ElementRef,
+    private renderer: Renderer,
+    @Inject('title') private titleService) { }
 
   ngAfterViewInit() {
     if (this.elem.nativeElement != null) {
       this.renderer.setElementAttribute(this.elem.nativeElement, 'unresolved', null);
     }
+    this.titleService.setTitle(this.title);
   }
 }
