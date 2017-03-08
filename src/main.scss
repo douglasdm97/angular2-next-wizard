@@ -1,5 +1,6 @@
-// 1. Configuration and helpers
 @import
   "scss/abstracts/variables";
-// 2. Vendors
-@import "scss/vendors/bootstrap";
+@import
+  "scss/vendors/bootstrap";
+@import
+  "scss/partials/body";
