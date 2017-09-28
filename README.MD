@@ -1,4 +1,4 @@
-# angular2-wizard
+# angular2-next-wizard
 [![npm version](https://badge.fury.io/js/angular2-wizard.svg)](https://badge.fury.io/js/angular2-wizard)
 [![Build Status](https://travis-ci.org/maiyaporn/angular2-wizard.svg?branch=master)](https://travis-ci.org/maiyaporn/angular2-wizard)
 [![Code Climate](https://codeclimate.com/github/maiyaporn/angular2-wizard/badges/gpa.svg)](https://codeclimate.com/github/maiyaporn/angular2-wizard)
@@ -8,19 +8,17 @@ This is an Angular2 Form Wizard component. Just like any form wizard. You can de
 
 You can checkout the demo below and see how to use it in the next section.
 
-## Demo
-https://maiyaporn.github.io/angular2-wizard-demo/
-
 ## Dependencies
+- Formly
 - Angular2 (tested with 2.3.1)
 - Bootstrap 4
 
 ## Installation
 
-After installing the above dependencies, install angular2-wizard via:
+After installing the above dependencies, install angular2-next-wizard via:
 
 ```bash
-$ npm install angular2-wizard --save
+$ npm install angular2-next-wizard --save
 ```
 
 ## How to use the component
@@ -84,30 +82,4 @@ Once your library is imported, you can use form-wizard and wizard-step component
 </form-wizard>
 ```
 
-## Document
-https://github.com/maiyaporn/angular2-wizard/wiki
-
-## Development
-
-To generate all `*.js`, `*.js.map` and `*.d.ts` files:
-
-```bash
-$ npm run tsc
-```
-
-To lint all `*.ts` files:
-
-```bash
-$ npm run lint
-```
-
-## Improvement
-- [x] Click title to navigate
-- [x] Hide/Show navigation button
-- [ ] Disable visited steps after navigate to previous
-- [ ] Dynamically add/remove step
-
-
 ## License
-
-MIT © [Maiyaporn Phanich](mailto:p.maiyaporn@gmail.com)
