@@ -1,6 +1,6 @@
 {
-  "name": "angular2-wizard",
-  "version": "0.3.0",
+  "name": "angular2-next-wizard",
+  "version": "0.0.1",
   "scripts": {
     "build": "ngc -p tsconfig.json",
     "lint": "tslint src/**/*.ts",
@@ -13,8 +13,8 @@
     "url": "https://github.com/maiyaporn/angular2-wizard"
   },
   "author": {
-    "name": "Maiyaporn Phanich",
-    "email": "p.maiyaporn@gmail.com"
+    "name": "Douglas Gabriel Cardoso",
+    "email": "douglas@grupoartisan.com.br"
   },
   "keywords": [
     "angular2-wizard",
