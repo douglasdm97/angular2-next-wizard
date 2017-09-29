@@ -12,6 +12,7 @@
   },
   "private": true,
   "dependencies": {
+    "@angular/animations": "^4.4.3",
     "@angular/common": ">=4.0.0-beta <5.0.0",
     "@angular/compiler": ">=4.0.0-beta <5.0.0",
     "@angular/core": ">=4.0.0-beta <5.0.0",
@@ -20,10 +21,17 @@
     "@angular/platform-browser": ">=4.0.0-beta <5.0.0",
     "@angular/platform-browser-dynamic": ">=4.0.0-beta <5.0.0",
     "@angular/router": ">=4.0.0-beta <5.0.0",
+    "@ng-bootstrap/ng-bootstrap": "^1.0.0-beta.5",
+    "@ngx-formly/core": "^2.0.0-alpha.2",
+    "angular2-next-wizard": "0.0.1",
     "bootstrap": "4.0.0-alpha.6",
     "core-js": "^2.4.1",
     "font-awesome": "^4.7.0",
+    "ionicons": "^3.0.0",
+    "ng-formly": "^1.0.0-rc.12",
     "rxjs": "^5.1.0",
+    "save": "^2.3.1",
+    "web-animations-js": "^2.3.1",
     "zone.js": "^0.8.5"
   },
   "devDependencies": {

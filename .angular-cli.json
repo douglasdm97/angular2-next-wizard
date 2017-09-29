@@ -19,7 +19,8 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "ngbt",
       "styles": [
-        "main.scss"
+        "main.scss",
+        "../node_modules/ionicons/dist/scss/ionicons.scss"
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.js",
