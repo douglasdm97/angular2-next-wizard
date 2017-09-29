@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
@@ -39,3 +40,38 @@ testem.log
 #System Files
 .DS_Store
 Thumbs.db
+=======
+dist/*
+*.ngfactory.ts
+*.ngsummary.json
+
+# Coverage
+coverage/*
+
+# Node
+node_modules/*
+npm-debug.log
+
+# TypeScript
+*.js
+*.map
+*.d.ts
+
+# JetBrains
+.idea
+.project
+.settings
+.idea/*
+*.iml
+
+# VS Code
+.vscode/*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+**/.DS_Store
+>>>>>>> 570e7e267d6a265ff5932c207a9bf26d6db59277

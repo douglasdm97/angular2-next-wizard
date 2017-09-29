@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Karma configuration file, see link for more information
 // https://karma-runner.github.io/0.13/config/configuration-file.html
 
@@ -42,3 +43,6 @@ module.exports = function (config) {
     singleRun: false
   });
 };
+=======
+module.exports = require('./config/karma.conf.js');
+>>>>>>> 570e7e267d6a265ff5932c207a9bf26d6db59277
